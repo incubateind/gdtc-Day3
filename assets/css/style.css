@@ -19,6 +19,19 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+h2:hover{
+  transform: scale(1.1);
+  position: inherit;
+  left: 1.5cm;
+}
+
+i:hover{
+  transform: scale(1.2);
+}
+
+button:hover{
+  transform: scale(1.1);
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -204,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/me.jpeg") top center;
   background-size: cover;
 }
 
@@ -220,11 +233,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  position: relative;
+  position: absolute;
   z-index: 2;
   min-width: 300px;
+  top: 2cm;
+
 }
 
+#hero .hero-jobs{
+  position: absolute;
+  top:4cm;
+  
+}
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
@@ -234,17 +254,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p {
-  color: #fff;
+  
+  color: rgb(0, 0, 0);
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  
 }
 
 #hero p span {
-  color: #fff;
+  color: rgb(0, 0, 0);
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #0ffff3;
+  font-weight: 600;
 }
 
 @media (min-width: 1024px) {
@@ -382,6 +405,8 @@ section {
 .facts .count-box a:hover {
   color: #1f5297;
 }
+
+
 
 /*--------------------------------------------------------------
 # Akills
@@ -1066,6 +1091,16 @@ section {
   color: #eaebf0;
 }
 
+#footer .name{
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  left: 28.7cm;
+  
+}
+
+#footer i{
+  color: red;
+}
 @media (max-width: 1199px) {
   #footer {
     position: static;
