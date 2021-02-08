@@ -348,7 +348,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: #14dd3f;
   float: left;
 }
 
@@ -366,21 +366,21 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #122f57;
+  color: #12574b;
 }
 
 .facts .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: #122f57;
+  color: #125746;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
 
 .facts .count-box a:hover {
-  color: #1f5297;
+  color: #1f978d;
 }
 
 /*--------------------------------------------------------------
@@ -415,7 +415,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #149ddd;
+  background-color: #14dd3f;
 }
 
 /*--------------------------------------------------------------
@@ -432,7 +432,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #1f9797;
   position: relative;
 }
 
@@ -510,7 +510,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: #14dd3f;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -593,10 +593,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: #14dd3f;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  border: 1px solid #14dd3f;
 }
 
 .services .icon i {
@@ -609,7 +609,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #149ddd;
+  color: #14dd3f;
 }
 
 .services .title {
@@ -624,7 +624,7 @@ section {
 }
 
 .services .title a:hover {
-  color: #149ddd;
+  color: #14dd3f;
 }
 
 .services .description {
@@ -717,7 +717,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #149ddd !important;
+  background-color: #14dd3f !important;
 }
 
 @media (max-width: 767px) {
@@ -742,7 +742,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #14dd3f;
   float: left;
   width: 44px;
   height: 44px;
@@ -793,12 +793,12 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: #14dd3f;
   color: #fff;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #14dd3f;
   color: #fff;
 }
 
@@ -878,7 +878,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #149ddd;
+  background: #14dd3f;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -887,7 +887,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #37b3ed;
+  background: #14dd3f;
 }
 
 @-webkit-keyframes animate-loading {
@@ -984,7 +984,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #149ddd !important;
+  background-color: #14dd3f !important;
 }
 
 .portfolio-details .portfolio-info {
