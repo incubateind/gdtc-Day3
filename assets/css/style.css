@@ -204,8 +204,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
-  background-size: cover;
+  background: url("../img/hero-bg.jpeg") top center;
+  background-size: contain;
 }
 
 #hero:before {
@@ -384,7 +384,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
