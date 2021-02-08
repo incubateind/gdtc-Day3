@@ -230,18 +230,20 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: white;
+  text-shadow: 3px 3px black;
 }
 
 #hero p {
-  color: #fff;
+  color: white;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
+  text-shadow: 2px 2px black;
 }
 
 #hero p span {
-  color: #fff;
+  color: white;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
