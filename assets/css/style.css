@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/Bg.jfif") top center;
   background-size: cover;
 }
 
@@ -582,11 +582,11 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+.resume .icon-box {
   margin-bottom: 20px;
 }
 
-.services .icon {
+.resume .icon {
   float: left;
   display: flex;
   align-items: center;
@@ -599,35 +599,35 @@ section {
   border: 1px solid #149ddd;
 }
 
-.services .icon i {
+.resume .icon i {
   color: #fff;
   font-size: 24px;
 }
 
-.services .icon-box:hover .icon {
+.resume .icon-box:hover .icon {
   background: #fff;
 }
 
-.services .icon-box:hover .icon i {
+.resume .icon-box:hover .icon i {
   color: #149ddd;
 }
 
-.services .title {
+.resume .title {
   margin-left: 80px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .title a {
+.resume .title a {
   color: #343a40;
 }
 
-.services .title a:hover {
+.resume .title a:hover {
   color: #149ddd;
 }
 
-.services .description {
+.resume .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
